@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+header{
+  background:lightblue;
+}
+
+body{
+  background:#12FFA9;
+  font-family:'Indie Flower', 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: full-width;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  border: 1px solid #333;
+  padding: 20px;
+  color:red;
+  transition: box-shadow 3s linear;
+  box-shadow: 0 1px 8px #000;
+  border-radius: 8px;
+}
+
+h1:hover {
+  <--opacity:0;-->
+  padding: 20px;
+  color:blue;
+  background: green;
+  box-shadow: 0 8px 16px #000;
+}
+
+header a em {
+  color:white;
+  font-weight: bold;
+}
+
+section {
+  border: 15px double black;
+  background:white;
+  padding:40px 30px 40px 80px;
+  margin: 20px 20px;
+  text-align:left;
+}
